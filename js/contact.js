@@ -24,9 +24,9 @@ $(document).ready(function(){
                     required: true,
                     minlength: 5
                 },
-                email: {
+                abc@gmail.com: {
                     required: true,
-                    email: true
+                    abc@gmail.com: true
                 },
                 message: {
                     required: true,
@@ -46,8 +46,8 @@ $(document).ready(function(){
                     required: "come on, you have a number, don't you?",
                     minlength: "your Number must consist of at least 5 characters"
                 },
-                email: {
-                    required: "no email, no message"
+                abc@gmail.com: {
+                    required: "no abc@gmail.com, no message"
                 },
                 message: {
                     required: "um...yea, you have to write something to send this form.",

@@ -3,7 +3,7 @@
 
 
     $to = "mailhemantjoshi@gmail.com";
-    $from = $_REQUEST['email'];
+    $from = $_REQUEST['abc@gmail.com'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
     $number = $_REQUEST['number'];
@@ -26,7 +26,7 @@
 	$body .= "<a href='{$link}'><img src='{$logo}' alt=''></a><br><br>";
 	$body .= "</td></tr></thead><tbody><tr>";
 	$body .= "<td style='border:none;'><strong>Name:</strong> {$name}</td>";
-	$body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";
+	$body .= "<td style='border:none;'><strong>abc@gmail.com:</strong> {$from}</td>";
 	$body .= "</tr>";
 	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
 	$body .= "<tr><td></td></tr>";
